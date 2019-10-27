@@ -1,0 +1,5 @@
+//   UsernamePasswordAuthenticationFilter
+   //
+//   SecurityContextHolder 包装threadLocal 将用户信息放入供线程共享
+//   SecurityContext 包装authentication
+//   SecurityContextPersistenceFilter进入之前检查session,退出之前检查session放入用户信息
